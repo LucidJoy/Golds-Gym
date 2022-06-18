@@ -104,6 +104,20 @@ body {
   text-decoration: none;
 }
 
+.image-video {
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 32px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 32px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 32px -18px rgba(0, 0, 0, 0.75);
+
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.image-video:hover {
+  transform: scale(1.05, 1.05);
+}
+
 @media screen and (max-width: 1200px) {
   .detail-image {
     width: 300px;
